@@ -1,9 +1,9 @@
 const cloudinary = require('cloudinary-react')
 
 cloudinary.config({
-    cloud_name:"drxkp1erj",
-    api_key:"218187136849528",
-    api_secret:"dF879L426Z38DnkBvSKuG_IcSCo"
+    cloud_name:"",
+    api_key:"",
+    api_secret:""
 })
 exports.upload =(file)=>{
     return new Promise((resolve)=>{
