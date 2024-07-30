@@ -7,7 +7,7 @@ module.exports = (app) => {
   // create a new user
   app.post(
     `/users/create`,
-    user.create
+    user.create 
   );
 
   // user login
